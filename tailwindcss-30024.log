@@ -1,0 +1,72 @@
+2026-10-28T07:43:57.709700Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-10-28T07:43:57.714221Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\pierf\\Desktop\\website 500", pattern: "**/*", negated: false }
+2026-10-28T07:43:57.733790Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-10-28T07:43:57.733879Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\pierf\\Desktop\\website 500" }
+2026-10-28T07:43:57.739990Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.740337Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.766348Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.767861Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\AGENTS.md"
+2026-10-28T07:43:57.767921Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\site-header.tsx"
+2026-10-28T07:43:57.767933Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\public-file.ts"
+2026-10-28T07:43:57.768140Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\booking.tsx"
+2026-10-28T07:43:57.768256Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\site.ts"
+2026-10-28T07:43:57.768434Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\structured-data.ts"
+2026-10-28T07:43:57.768385Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\sticky-book-bar.tsx"
+2026-10-28T07:43:57.768510Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\cta-video.tsx"
+2026-10-28T07:43:57.768597Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\netlify.toml"
+2026-10-28T07:43:57.768691Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\faq.tsx"
+2026-10-28T07:43:57.768741Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\api\\inquiry\\route.ts"
+2026-10-28T07:43:57.768761Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\next.config.ts"
+2026-10-28T07:43:57.768772Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\tour-card.tsx"
+2026-10-28T07:43:57.768781Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\hero.tsx"
+2026-10-28T07:43:57.768855Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\gallery.tsx"
+2026-10-28T07:43:57.768930Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\package.json"
+2026-10-28T07:43:57.768931Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\icon.tsx"
+2026-10-28T07:43:57.768959Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\photo-placeholder.tsx"
+2026-10-28T07:43:57.768978Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\tours.tsx"
+2026-10-28T07:43:57.769015Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\hero-media.tsx"
+2026-10-28T07:43:57.769098Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\layout.tsx"
+2026-10-28T07:43:57.769099Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\public\\videos\\.gitkeep"
+2026-10-28T07:43:57.769140Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\why-fiat.tsx"
+2026-10-28T07:43:57.769169Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\page.tsx"
+2026-10-28T07:43:57.769261Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\README.md"
+2026-10-28T07:43:57.769286Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\photo.tsx"
+2026-10-28T07:43:57.769322Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\robots.ts"
+2026-10-28T07:43:57.769433Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\scripts\\check-media.mjs"
+2026-10-28T07:43:57.769546Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\sitemap.ts"
+2026-10-28T07:43:57.769574Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\reveal.tsx"
+2026-10-28T07:43:57.769623Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\cn.ts"
+2026-10-28T07:43:57.769703Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\book-tour-button.tsx"
+2026-10-28T07:43:57.769711Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\tsconfig.json"
+2026-10-28T07:43:57.769244Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\opengraph-image.tsx"
+2026-10-28T07:43:57.769345Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\eslint.config.mjs"
+2026-10-28T07:43:57.769765Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\booking-intent.ts"
+2026-10-28T07:43:57.769794Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\content.ts"
+2026-10-28T07:43:57.769859Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\booking-form.tsx"
+2026-10-28T07:43:57.769719Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\reviews.tsx"
+2026-10-28T07:43:57.769906Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\vercel.json"
+2026-10-28T07:43:57.769906Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\components\\site-footer.tsx"
+2026-10-28T07:43:57.769956Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\lib\\media.ts"
+2026-10-28T07:43:57.770339Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.770369Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.770381Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.770396Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.773528Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.773590Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.773625Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.773640Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-10-28T07:43:57.773956Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\pierf\\Desktop\\website 500\\app\\globals.css"
+2026-10-28T07:43:57.773986Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.773999Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.774017Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.774668Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.774699Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.775385Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.781051Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.781104Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.781119Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.783078Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.783813Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.783867Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: enter
+2026-10-28T07:43:57.783880Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: exit
+2026-10-28T07:43:57.821570Z  INFO get_globs: tailwindcss_oxide::scanner: exit

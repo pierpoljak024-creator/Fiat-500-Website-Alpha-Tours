@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+@theme {
+  /* Type */
+  --font-display: var(--font-playfair), "Playfair Display", ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), Inter, ui-sans-serif, system-ui, sans-serif;
+
+  /* La Dolce Vita palette */
+  --color-cream: #fdfbf7;
+  --color-bone: #f7f1e7;
+  --color-sand: #efe4d3;
+  --color-charcoal: #2c2c2c;
+  --color-ink: #1e1b18;
+  --color-red: #c83232;
+  --color-red-deep: #a32424;
+  --color-brass: #c5a059;
+  --color-brass-light: #e3cea4;
+  --color-brass-dark: #a07f3e;
+
+  /* Motion */
+  --ease-dolce: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: var(--color-red);
+    color: var(--color-cream);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brass);
+    outline-offset: 3px;
+  }
+
+  input,
+  select,
+  textarea {
+    color-scheme: light;
+  }
+}
+
+/* ---------- Host chrome ---------- */
+
+/*
+ * Netlify's edge injects a "Powered by Netlify" iframe (#nl-badge-frame, built
+ * from /.netlify/scripts/hud) into every HTML response on free-tier sites. It is
+ * not part of this codebase, so there is nothing to delete in React — the only
+ * thing we control is whether it is painted. Both hooks (id and the frame title)
+ * are matched so a change on Netlify's side still gets caught.
+ *
+ * To remove the badge for real: upgrade the Netlify team off the free tier (or
+ * host the static export elsewhere) and this block can go.
+ */
+#nl-badge-frame,
+iframe[title="Powered by Netlify"] {
+  display: none !important;
+}
+
+/* ---------- Decorative utilities ---------- */
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+/* Warm light wash for the airy sections */
+.paper-glow {
+  background-image:
+    radial-gradient(
+      62% 48% at 88% 4%,
+      rgba(197, 160, 89, 0.16) 0%,
+      rgba(197, 160, 89, 0) 68%
+    ),
+    radial-gradient(
+      48% 42% at 4% 88%,
+      rgba(200, 50, 50, 0.06) 0%,
+      rgba(200, 50, 50, 0) 70%
+    );
+}
+
+/* Very quiet print texture — pure CSS, no image request */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(44, 44, 44, 0.035) 0 1px,
+      transparent 1px 3px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(44, 44, 44, 0.025) 0 1px,
+      transparent 1px 4px
+    );
+  mix-blend-mode: multiply;
+}
+
+/* Roman doorway arch */
+.arch {
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+}
+
+/* Dotted rule used to separate ticket-style blocks */
+.dot-rule {
+  height: 1px;
+  opacity: 0.4;
+  background-image: radial-gradient(currentColor 1px, transparent 1.2px);
+  background-size: 7px 7px;
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------- Motion ---------- */
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 22px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rise {
+  animation: rise 0.9s var(--ease-dolce) both;
+}
+
+.rise-1 {
+  animation-delay: 0.06s;
+}
+.rise-2 {
+  animation-delay: 0.14s;
+}
+.rise-3 {
+  animation-delay: 0.22s;
+}
+.rise-4 {
+  animation-delay: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .rise {
+    animation: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
